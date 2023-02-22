@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('Sealink.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+	height: 100vh;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin-top: 20.33%;
+	height: 60%;
+	width: 33.33%;
+    margin-left: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.section-left {
+	background-color: rgba(51, 73, 102, 0.8);
+}
+
+.section-center {
+	background-color: rgba(90, 101, 58, 0.8);
+}
+
+.section-right {
+	background-color: rgba(92, 58, 98, 0.8);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+p {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 1;
+    margin-top: 10%
+  }

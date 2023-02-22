@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url('Sealink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: #0077FF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #0055CC;
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    color: #fff;
+    margin-top: -100px
+  }
+
+/* Style the social buttons */
+.social-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .social-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #fff;
+  }
+  
+  .social-button i {
+    margin-top: 3px;
+  }
+  
+  /* Style the font awesome icons */
+  .fa-github, .fa-linkedin {
+    font-size: 32px;
+  }
+  
+  /* Style the GitHub button */
+  .social-button.github {
+    border-color: #fff;
+  }
+  
+  .social-button.github i {
+    color: #fff;
+  }
+  
+  /* Style the LinkedIn button */
+  .social-button.linkedin {
+    border-color: #fff;
+  }
+  
+  .social-button.linkedin i {
+    color: #fff;
+  }
+  
+  
